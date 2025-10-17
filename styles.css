@@ -84,6 +84,7 @@ p {
     max-width: 100%;
     padding: 10px 20px;
     margin-top: 15px;
+    margin-bottom: 15px; /* 説明文との間にスペースを追加 */
     /* おしゃれなオレンジ/テラコッタ系の色 */
     background-color: #f39c12; 
     color: #fff !important;
@@ -94,7 +95,6 @@ p {
     transition: background-color 0.3s, transform 0.1s;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     font-size: 1.05em;
-    /* より角丸のオプション: border-radius: 20px; */
 }
 .game-link-button:hover {
     /* ホバー時は少し深いオレンジに */
