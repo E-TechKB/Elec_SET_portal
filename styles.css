@@ -4,17 +4,17 @@ body {
     margin: 20px;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center; 
+    text-align: center; /* bodyの全体を中央揃えの基準にする */
     font-size: 16px; 
 }
 .container {
     max-width: 800px;
-    margin: 20px auto; 
+    margin: 20px auto; /* 画面中央に配置 */
     background: #fff;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    text-align: left; 
+    text-align: center; /* **コンテナ内のテキスト全体を中央揃えに** */
 }
 h1 {
     color: #2c3e50;
@@ -29,7 +29,7 @@ h2 {
     padding-bottom: 10px;
     margin-top: 40px;
     font-size: 1.8em;
-    text-align: center; /* H2タイトルは中央揃え */
+    text-align: center; 
 }
 ul {
     list-style: none;
@@ -42,18 +42,18 @@ li {
     border-radius: 8px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
     border-left: none;
-    text-align: left; /* リスト全体を左揃え */
+    text-align: center; /* **リスト内のすべての要素を中央揃えに** */
 }
 
 /* 各レベルのタイトル (Lv.Xを含む) */
 h3 {
     color: #34495e;
     margin-top: 5px; 
-    text-align: center; /* **タイトル全体を中央揃えに** */
+    text-align: center; 
     padding-left: 0;
     font-size: 1.6em; 
     line-height: 1.2; 
-    display: block; /* **改行を確実に効かせるため** */
+    display: block; 
 }
 
 /* 目標スコア */
@@ -63,18 +63,18 @@ h3 {
     font-size: 1.15em; 
     margin-top: 10px;
     margin-bottom: 15px;
-    text-align: left; /* 左揃え */
+    text-align: center; /* 中央揃え */
 }
 .game-description {
     margin-top: 10px;
-    text-align: left;
+    text-align: center; /* 中央揃え */
     padding: 0;
     font-size: 1.05em; 
 }
 
 /* 導入文 */
 .intro {
-    text-align: left;
+    text-align: center; /* 中央揃え */
     font-size: 1.1em;
     margin-bottom: 30px;
     color: #555;
@@ -98,7 +98,7 @@ li a:hover {
     width: fit-content;
     max-width: 100%;
     padding: 12px 25px; 
-    margin: 15px auto; /* **ボタンを中央揃えに** */
+    margin: 15px auto; /* ボタンを中央揃えに */
     /* おしゃれなオレンジ/テラコッタ系の色 */
     background-color: #f39c12; 
     color: #fff !important;
