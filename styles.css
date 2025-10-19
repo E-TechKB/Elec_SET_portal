@@ -4,23 +4,23 @@ body {
     margin: 20px;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center; /* bodyの全体を中央揃えの基準にする */
-    font-size: 16px; /* 基本フォントサイズを明記 */
+    text-align: center; 
+    font-size: 16px; 
 }
 .container {
     max-width: 800px;
-    margin: 20px auto; /* 画面中央に配置 */
+    margin: 20px auto; 
     background: #fff;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    text-align: left; /* コンテナ内のテキストのデフォルトを左揃えに戻す */
+    text-align: left; 
 }
 h1 {
     color: #2c3e50;
     text-align: center;
     margin-bottom: 30px;
-    font-size: 2.2em; /* h1を少し大きく */
+    font-size: 2.2em; 
 }
 h2 {
     /* ターコイズブルー系の強調色 */
@@ -36,40 +36,40 @@ ul {
     padding: 0;
 }
 li {
-    /* リストアイテム内を左揃えにするため、text-align: leftを適用 */
     margin-bottom: 25px;
     background: #eef7fc;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
     border-left: none;
-    text-align: left; 
+    text-align: left; /* リスト全体を左揃え */
 }
 
 /* 各レベルのタイトル (Lv.Xを含む) */
 h3 {
     color: #34495e;
     margin-top: 5px; 
-    text-align: center; /* H3は中央揃えを維持 */
+    text-align: center; /* **タイトル全体を中央揃えに** */
     padding-left: 0;
-    font-size: 1.6em; /* **H3のフォントサイズを大きく** */
-    line-height: 1.2; /* 改行されたタイトルが詰まりすぎないように調整 */
+    font-size: 1.6em; 
+    line-height: 1.2; 
+    display: block; /* **改行を確実に効かせるため** */
 }
 
 /* 目標スコア */
 .score-goal {
     font-weight: bold;
     color: #e67e22;
-    font-size: 1.15em; /* スコアも少し大きく */
+    font-size: 1.15em; 
     margin-top: 10px;
     margin-bottom: 15px;
-    text-align: left; 
+    text-align: left; /* 左揃え */
 }
 .game-description {
     margin-top: 10px;
     text-align: left;
     padding: 0;
-    font-size: 1.05em; /* 説明文のフォントサイズを微調整 */
+    font-size: 1.05em; 
 }
 
 /* 導入文 */
@@ -97,9 +97,8 @@ li a:hover {
     display: block;
     width: fit-content;
     max-width: 100%;
-    padding: 12px 25px; /* ボタンのパディングを増やして大きく見せる */
-    /* ボタンを中央揃えにするために左右マージンをautoに設定 */
-    margin: 15px auto; 
+    padding: 12px 25px; 
+    margin: 15px auto; /* **ボタンを中央揃えに** */
     /* おしゃれなオレンジ/テラコッタ系の色 */
     background-color: #f39c12; 
     color: #fff !important;
@@ -109,10 +108,9 @@ li a:hover {
     text-align: center;
     transition: background-color 0.3s, transform 0.1s;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    font-size: 1.1em; /* ボタンの文字サイズも少し大きく */
+    font-size: 1.1em; 
 }
 .game-link-button:hover {
-    /* ホバー時は少し深いオレンジに */
     background-color: #d35400; 
     text-decoration: none;
     transform: translateY(-1px);
