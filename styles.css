@@ -5,6 +5,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     text-align: center; /* bodyの全体を中央揃えの基準にする */
+    font-size: 16px; /* 基本フォントサイズを明記 */
 }
 .container {
     max-width: 800px;
@@ -19,6 +20,7 @@ h1 {
     color: #2c3e50;
     text-align: center;
     margin-bottom: 30px;
+    font-size: 2.2em; /* h1を少し大きく */
 }
 h2 {
     /* ターコイズブルー系の強調色 */
@@ -41,31 +43,36 @@ li {
     border-radius: 8px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
     border-left: none;
-    text-align: left; /* **ここを左揃えに設定** */
+    text-align: left; 
 }
 
-/* タイトル、スコア、説明文は左揃え（liが左揃えのため、自動的に適用される） */
+/* 各レベルのタイトル (Lv.Xを含む) */
 h3 {
     color: #34495e;
-    margin-top: 5px; /* H3の位置を調整 */
+    margin-top: 5px; 
     text-align: center; /* H3は中央揃えを維持 */
     padding-left: 0;
+    font-size: 1.6em; /* **H3のフォントサイズを大きく** */
+    line-height: 1.2; /* 改行されたタイトルが詰まりすぎないように調整 */
 }
+
+/* 目標スコア */
 .score-goal {
     font-weight: bold;
     color: #e67e22;
-    font-size: 1.1em;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    text-align: left; /* 明示的に左揃え */
+    font-size: 1.15em; /* スコアも少し大きく */
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: left; 
 }
 .game-description {
     margin-top: 10px;
     text-align: left;
     padding: 0;
+    font-size: 1.05em; /* 説明文のフォントサイズを微調整 */
 }
 
-/* 導入文は左揃え */
+/* 導入文 */
 .intro {
     text-align: left;
     font-size: 1.1em;
@@ -90,7 +97,7 @@ li a:hover {
     display: block;
     width: fit-content;
     max-width: 100%;
-    padding: 10px 20px;
+    padding: 12px 25px; /* ボタンのパディングを増やして大きく見せる */
     /* ボタンを中央揃えにするために左右マージンをautoに設定 */
     margin: 15px auto; 
     /* おしゃれなオレンジ/テラコッタ系の色 */
@@ -102,7 +109,7 @@ li a:hover {
     text-align: center;
     transition: background-color 0.3s, transform 0.1s;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    font-size: 1.05em;
+    font-size: 1.1em; /* ボタンの文字サイズも少し大きく */
 }
 .game-link-button:hover {
     /* ホバー時は少し深いオレンジに */
