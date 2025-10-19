@@ -48,7 +48,7 @@ li {
 h3 {
     color: #34495e;
     margin-top: 5px; /* H3の位置を調整 */
-    text-align: left; /* 明示的に左揃え */
+    text-align: center; /* H3は中央揃えを維持 */
     padding-left: 0;
 }
 .score-goal {
